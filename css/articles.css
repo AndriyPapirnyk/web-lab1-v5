@@ -28,6 +28,12 @@
     border-radius: 20px;
     box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
     background-color: #fff;
+    transition: .3s;
+}
+.articles__list-card:hover{
+    transform: translateY(-10px);
+    transition: .3s;
+    box-shadow: 20px 50px 60px rgba(229, 233, 246, 0.6);
 }
 .articles__list-card-content{
     display: flex;
