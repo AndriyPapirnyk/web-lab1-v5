@@ -1,0 +1,81 @@
+.review{
+    height: 768px;
+    background-color: #F3F8FE;
+}
+.review__container{
+    flex-direction: column;
+    gap: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.review__content{
+    width: 100%;
+    height: 425px;
+    background: linear-gradient(180deg, #67C3F3 0%, #5A98F2 100%);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 115px;
+}
+.review__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.review__title h2{
+    color: #fff;
+}
+.review__line{
+    background-color: #fff;
+}
+.review__card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.review__card-info{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.review__card-info div{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #fff;
+}
+.review__card-info div p{
+    font-weight: 300;
+}
+.review__card-text{
+    color: #fff;
+    line-height: 30px;
+    font-weight: 300;
+}
+.review__pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.review__pagination img{
+    cursor: pointer;
+}
+.review__pagination-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.review__pagination-list div{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(201, 219, 248);
+    cursor: pointer;
+}
+

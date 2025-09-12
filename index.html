@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <footer class="footer">
-        <div class="footer__container">
-            <nav class="footer__nav">
+    <header class="header block">
+        <div class="header__container container">
+            <nav class="header__nav">
                 <ul>
                     <li>Home</li>
                     <li>Find a doctor</li>
@@ -18,19 +18,19 @@
                     <li>About us</li>
                 </ul>
             </nav>
-            <div class="footer__logo">
-                <div class="footer__logo-icon">T</div>
-                <h1 class="footer__logo-title">Trafalgar</h1>
+            <div class="header__logo logo">
+                <div class="header__logo-icon logo-icon">T</div>
+                <h1 class="header__logo-title logo-title">Trafalgar</h1>
             </div>
         </div>
-    </footer>
-    <section class="home">
-        <div class="home__container">
+    </header>    
+    <section class="home block">
+        <div class="home__container container">
             <main class="home__main">
-                <h2 class="home__main-title">Download our<br>mobile apps</h2>
-                <div class="home__main-line"></div>
+                <h2 class="home__main-title title">Download our<br>mobile apps</h2>
+                <div class="home__main-line line"></div>
                 <p class="home__main-text">Our dedicated patient engagement app and <br> web portal allow you to access information <br> instantaneously (no tedeous form, long calls, <br> or administrative hassle) and securely</p>
-                <button class="home__main-button">
+                <button class="home__main-button button">
                     <span>Download</span>
                     <img src="./images/download-ico.png" alt="download">
                 </button>
@@ -38,13 +38,13 @@
             <img class="home__illustration" src="./images/home.png" alt="home illustration">
         </div>
     </section>
-    <section class="articles">
-        <div class="articles__container">
+    <section class="articles block">
+        <div class="articles__container container">
             <img class="articles__dots" src="./images/dots.png" alt="">
             <img class="articles__cloud" src="./images/cloud.png" alt="">
             <div class="articles__title">
-                <h2>Check out our latest article</h2>
-                <div class="article__line"></div>
+                <h2 class="title">Check out our latest article</h2>
+                <div class="article__line line"></div>
             </div>
             <div class="articles__list">
                 <div class="articles__list-card">
@@ -81,10 +81,56 @@
                     </div>
                 </div>
             </div>
-            <button class="article__button">View all</button>
+            <button class="article__button button">View all</button>
         </div>
     </section>
+    <section class="review block">
+        <div class="review__container container">
+            <main class="review__content">
+                <div class="review__title">
+                    <h2 class="title">What our customers are saying</h2>
+                    <div class="review__line line"></div>
+                </div>
+                <div class="review__card">
+                    <div class="review__card-info">
+                        <img src="./images/person.png" alt="person logo">
+                        <div>
+                            <h3>Edward Newgate</h3>
+                            <p>Founder Circle</p>
+                        </div>
+                    </div>
+                    <p class="review__card-text">
+                        "Our dedicated patient engagement app and <br> web portal allow you to access information <br> instantaneously (no tedeous form, long calls, <br> or administrative hassle) and securely"
+                    </p>
+                </div>
+            </main>
+            <div class="review__pagination">
+                <img class="review__pagination-back" src="./images/pagination-v1.png" alt="back ico">
+                <div class="review__pagination-list">
+                    <div style="background-color: #5B9BF3;"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <img class="review__pagination-forward" src="./images/pagination-v2.png" alt="forward ico">
+            </div>
+        </div>
+    </section>
+    <footer class="footer block">
+        <div class="footer__container container">
+            <div class="footer__logo logo">
+                <div class="footer__logo-icon logo-icon">T</div>
+                <h1 class="footer__logo-title logo-title">Trafalgar</h1>
+            </div>            
+            <nav class="footer__nav">
+                <ul>
+                    <li>Company</li>
+                    <li>Region</li>
+                    <li>Help</li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
 
-<!-- 190 -->

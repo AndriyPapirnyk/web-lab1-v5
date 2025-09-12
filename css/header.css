@@ -1,0 +1,27 @@
+.header{
+    height: 155px;
+}
+.header__container{
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    color: rgb(142, 138, 152);
+}
+.header__nav ul li{
+    cursor: pointer;
+    transition: .3s;
+}
+.header__nav ul li:hover{
+    color: rgb(29, 21, 50);
+    font-weight: 500;
+    transition: .3s;
+}
+.header__logo-icon{
+    background-color: #458FF6;
+    color: #fff;
+}
+
