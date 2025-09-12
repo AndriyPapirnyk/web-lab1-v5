@@ -1,4 +1,6 @@
 .footer{
+    overflow: hidden;
+    position: relative;
     height: 150px;
     background: linear-gradient(180deg, #67C3F3 0%, #5A98F2 100%);
     color: #fff;
@@ -19,4 +21,9 @@
     list-style: none;
     font-style: 18px;
     font-weight: 500;
+}
+.footer__dots{
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
 }
