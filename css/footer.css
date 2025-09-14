@@ -34,3 +34,16 @@
     left: -20px;
     bottom: -20px;
 }
+.footer__burger{
+    width: 40px;
+    display: none;
+    transform: rotate(180deg);
+}
+@media (max-width: 810px) {
+    .footer__nav ul{
+        display: none;
+    }
+    .footer__burger{
+        display: block;
+    }
+}

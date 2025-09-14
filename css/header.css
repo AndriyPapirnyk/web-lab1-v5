@@ -24,4 +24,16 @@
     background-color: #458FF6;
     color: #fff;
 }
+.header__burger{
+    width: 40px;
+    display: none;
+}
+@media (max-width: 810px) {
+    .header__nav ul{
+        display: none;
+    }
+    .header__burger{
+        display: block;
+    }
+}
 

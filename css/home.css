@@ -36,4 +36,23 @@
     color: rgb(142, 138, 152);
     line-height: 30px;
 }
-
+@media (max-width: 1100px) {
+  .home{
+      height: auto;
+  }
+  .home__illustration{
+      display: none;
+  }
+  .home__container{
+      justify-content: center;
+      text-align: center;
+  }
+  .home__main{
+      align-items: center;
+  }
+}
+@media (max-width: 398px) {
+  .home__main-text{
+    font-size: 12px;
+  }
+}
