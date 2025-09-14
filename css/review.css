@@ -2,12 +2,6 @@
     height: 768px;
     background-color: #F3F8FE;
 }
-@media (max-width: 1015px) {
-    .review{
-        height: auto;
-        padding: 100px 0;
-    }
-}
 .review__container{
     flex-direction: column;
     gap: 45px;
@@ -25,23 +19,11 @@
     justify-content: space-between;
     padding: 75px 115px;
 }
-@media (max-width: 1015px) {
-    .review__content{
-        height: auto;
-        padding: 50px 30px;
-        gap: 40px;
-    }
-}
 .review__title{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 30px;
-}
-@media (max-width: 425px) {
-    .review__title h2{
-        font-size: 20px;
-    }
 }
 .review__title h2{
     color: #fff;
@@ -55,12 +37,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-@media (max-width: 1015px) {
-    .review__card{
-        flex-direction: column;
-        gap: 30px;
-    }
 }
 .review__card-info{
     display: flex;
@@ -76,23 +52,10 @@
 .review__card-info div p{
     font-weight: 300;
 }
-/* @media (max-width: 460px) {
-    .review__card-info img{
-        font-size: 12px;
-    }
-} */
 .review__card-text{
     color: #fff;
     line-height: 30px;
     font-weight: 300;
-}
-@media (max-width: 460px) {
-    .review__card-info img{
-        width: 90px;
-    }
-    .review__card-text br{
-        display: none;
-    }
 }
 .review__pagination{
     display: flex;
@@ -115,6 +78,34 @@
     border-radius: 50%;
     background-color: rgb(201, 219, 248);
     cursor: pointer;
+}
+@media (max-width: 1015px) {
+    .review{
+        height: auto;
+        padding: 100px 0;
+    }
+    .review__content{
+        height: auto;
+        padding: 50px 30px;
+        gap: 40px;
+    }
+    .review__card{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+@media (max-width: 425px) {
+    .review__title h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 460px) {
+    .review__card-info img{
+        width: 90px;
+    }
+    .review__card-text br{
+        display: none;
+    }
 }
 @media (max-width: 475px) {
     .review__pagination{

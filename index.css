@@ -11,7 +11,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat';
 }
-
 ul li {
     cursor: pointer;
 }
@@ -33,11 +32,6 @@ a{
     width: 1120px;
     height: 100%;
     display: flex;
-}
-@media (max-width: 1140px) {
-    .container{
-        padding: 0 20px;
-    }
 }
 .logo{
     display: flex;
@@ -86,6 +80,11 @@ a{
     background-color: #458FF6;
     color: #fff;
     transition: .3s;
+}
+@media (max-width: 1140px) {
+    .container{
+        padding: 0 20px;
+    }
 }
 @media (max-width: 390px) {
     p{
