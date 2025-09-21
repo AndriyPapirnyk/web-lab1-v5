@@ -21,6 +21,15 @@
     font-weight: 500;
     transition: .3s;
 }
+.header__nav.active {
+    display: block;
+    z-index: 2;
+}
+.header__nav.active ul {
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+}
 .header__logo-icon{
     background-color: #458FF6;
     color: #fff;
@@ -30,10 +39,15 @@
     display: none;
 }
 @media (max-width: 810px) {
-    .header__nav ul{
+    .header__nav{
+        position: absolute;
+        top: 140px;
+        left: 5%;
         display: none;
-        width: 100%;
+        width: 90%;
         border: 1px solid #000;
+        background-color: #fff;
+        border-radius: 20px;
     }
     .header__burger{
         display: block;
